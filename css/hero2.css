@@ -1,6 +1,7 @@
 html, body{
 	font-family: Trebuchet MS;
 	margin: 0;
+	text-align: center;
 }
 
 header{
@@ -12,24 +13,29 @@ header{
 
 header h1{
 	font-size: 70px;
+	text-shadow: 0 4px 20px black;
+	text-transform: uppercase;
+	margin: 0;
 }
 
 header img{
 	border-radius: 400px;
 	width: 520px;
 	border: 1px solid black;
-	max-width: 100%
+	max-width: 100%;
+	box-shadow: 0 5px 9px black;
 }
 
 .content{
-	max-width: 700px;
+	
 	margin: 0 auto;
 	padding: 20px 15px;
-	background-color: #e7ecfe;
+	background-color:  #b6c5fc;
 }
 
 img.big-image{
-	max-width: 100%
+	max-width: 100%;
+	box-shadow: 0 1px 5px grey;
 }
 
 p.caption{
@@ -42,7 +48,7 @@ p.caption{
 
 h2{
 	font-size: 40px;
-	color:  #002080;
+	color:  black;
 	margin-bottom: 0;
 }
 
@@ -52,8 +58,15 @@ ol, ul{
 	margin: 20px auto 40px;
 }
 
+li{
+	background-color: #9db1fb;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 a{
-	color: #990000;
+	color: #333333;
 	text-decoration: none;
 	background-color: #ccd8ff;
 }
